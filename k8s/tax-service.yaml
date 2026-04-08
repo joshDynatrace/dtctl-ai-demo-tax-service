@@ -15,8 +15,8 @@ spec:
     spec:
       containers:
         - name: tax-service
-          image: tax-service:latest
-          imagePullPolicy: Never
+          image: jhendrick/tax-service:latest
+          imagePullPolicy: Always
           ports:
             - containerPort: 8081
           readinessProbe:
